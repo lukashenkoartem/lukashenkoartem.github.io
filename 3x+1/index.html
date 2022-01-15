@@ -1,26 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <script>
-      const steps = (n) => {
-    if (n <= 0) {
-        throw new Error('Only positive numbers are allowed')
-    }
-    
-    let counter = 0;
-
-    while (n > 1){
-        if (n % 2 == 0) {
-            n = n / 2;
-        } else {
-            n = (n * 3) + 1;
-        }
-        counter += 1;
-    }
-    return counter;
-}
-    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3x+1 Visualiser</title>
   </head>
   <body>
-    <center><h1>3X+1</h1></center>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
