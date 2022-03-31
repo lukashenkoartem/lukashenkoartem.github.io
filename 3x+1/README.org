@@ -1,2 +1,0 @@
-* 3x + 1 Visualiser
-Takes a number as input and generates an interactive 3x+1 graph from the number. Can export to png.
